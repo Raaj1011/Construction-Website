@@ -25,6 +25,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
+  
 }
 
 html::-webkit-scrollbar {
@@ -108,7 +109,7 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   z-index: 1000;
-  background: var(--white);
+  background: linear-gradient(to left, blue, red);
 }
 
 .header .logo {
@@ -448,7 +449,9 @@ section {
 .home .swiper-button-prev {
   right: 7rem;
 }
-
+.about {
+  background:  #F3E5F5;
+}
 .about .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -521,8 +524,8 @@ section {
   padding-top: .5rem;
 }
 
-.services {
-  background: var(--light-bg);
+.services  {
+  background:  #FAF3E0;
 }
 
 .services .box-container {
@@ -568,11 +571,11 @@ section {
 }
 
 .projects {
-  background: var(--black);
+  background: #E6F7FF;
 }
 
 .projects .heading {
-  color: var(--white);
+  color: var(--black);
 }
 
 .projects .box-container {
@@ -641,7 +644,9 @@ section {
   text-align: center;
   line-height: 7.5rem;
 }
-
+.reviews {
+  background: #F5F5DC;
+}
 .reviews .slide p {
   padding: 1.5rem;
   background: var(--light-bg);
@@ -756,7 +761,7 @@ section {
 }
 
 .contact {
-  background: var(--black);
+  background:  #C0C0C0;
 }
 
 .contact .heading {
@@ -812,7 +817,7 @@ section {
 }
 
 .blogs {
-  background: var(--light-bg);
+  background: #36454F;
 }
 
 .blogs .slide {
